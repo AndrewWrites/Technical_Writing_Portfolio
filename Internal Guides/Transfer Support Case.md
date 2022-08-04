@@ -1,7 +1,7 @@
 # **Transfer Support Cases Between Support Engineers**
 
 ## **Purpose**
-This document covers teh correct procedure for transferring a support case from one  Customer Support Engineer (CSE) to another.
+This document covers the correct procedure for transferring a support case from one  Customer Support Engineer (CSE) to another.
 
 ## **Overview**
 In most cases, the CSE who is assigned to the case is responsible for working it to completion. However, there will be times when a case needs to be transferred to another CSE, potentially in a different global region. The handoff between CSEs is critical to ensure minimal impact on the customer.

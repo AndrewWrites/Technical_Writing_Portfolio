@@ -52,9 +52,8 @@ The final step here is to join the information from the various Mngo tables back
  1. Join the Schedules table to the Queue table using the AS_Application_ID field.
  2. Join the results of Step 1 to the AS_Results table using the AS_Queue_ID field.
  3. Join the results of Step 2 to the AS_Applications table using the AS_Application_ID field and the Mongo_id field (from Mongo Input tool).<br>
- 
-Note that in order to use the Mongo_id,  you'll need to parse it out to remove the unneeded infomration. You can do this using a simple RegEx expression within the RegEx tool:<br>
-`."(.*)".*` <br>
+
+Note that in order to use the Mongo_id,  you'll need to parse it out to remove the unneeded infomration. You can do this using a simple RegEx expression within the RegEx tool: `."(.*)".*` <br>
 
 I've also attached a sample workflow detailing this process. Note that the workflow probably won't run until you update the credentials to match your own as it is set up for my instance of Mongo. You can use the workflow as a template for your own connections.<br><br>
 

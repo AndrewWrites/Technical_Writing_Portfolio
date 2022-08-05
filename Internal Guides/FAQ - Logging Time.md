@@ -7,6 +7,7 @@ Case Time is used for time spent on activities directly related to resolving a c
 |-----------|-----------|
 |  <ul><li>Email to customer</li><li>Web meeting with customer</li><li>Live Chat</li><li>Case research and troubleshooting</li><li>Posting to internal forums for help</li><li>Responding to internal forum threads related to cases</li><li>Reviewing logs, workflows, or other files related to a case</li></ul> | <u1><li>Writing community articles</li><li>Team meetings</li><li>1:1 calls with your supervisor</li><li>Ad-hoc projects</li><li>CSE development (training, mentoring)</li><li>Travel</li><li>Time tracking</li><li>Time card (hourly only)</li><u1>
 <br>
+
 **What is the difference between Admin and Internal Meeting (Admin)?**<br>
 Admin time entries should be made for everyday tasks including:
 - Reading and responding to internal emails

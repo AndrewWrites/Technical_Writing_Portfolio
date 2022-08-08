@@ -9,20 +9,20 @@ This question has come up a few times recently and the answer is yes. The method
 **Let's go over MongoDB (Server) first:**<br><br>
 
 First you'll need some information from you System Settings (Controller - Persistence section):<br>
-![SystemSettings](/Community%20Articles/Screenshots/Querey%20Scheduler%20database/SystemSettings.jpg)
+![SystemSettings](/Community%20Articles/Screenshots/Query%20Scheduler%20database/SystemSettings.jpg)
 <br><br>
 
 You'll need the Host information, Username, and Password. You'll see 2 options for password; Admin and regular. For this you want to use the regular password which can be copied and pasted into the connector.<br><br>
 
 Once you have this information, configure the MongoDB Input tool (Connectors tool set):<br>
-![MongoInput](/Community%20Articles/Screenshots/Querey%20Scheduler%20database/MongoDBInput.jpg)
+![MongoInput](/Community%20Articles/Screenshots/Query%20Scheduler%20database/MongoDBInput.jpg)
 <br><br>
 The "Host" information goes in the Server input. Username and Password go in their respective boxes. The database you need to query is AlteryxService.<br><br>
 
 The Collection dropdown should auto populate with the tables you can pull from, however, you may need to run the workflow once to refresh the list. Note that you will get an error stating that Database and Collection must be specified. <br><br>
 
 Once you've established your connection, you can use the rest of the tool configurations to set up any other information you want such as record limits:<br>
-![recordlimits](/Community%20Articles/Screenshots/Querey%20Scheduler%20database/BottomMongoDB.jpg)
+![recordlimits](/Community%20Articles/Screenshots/Query%20Scheduler%20database/BottomMongoDB.jpg)
 <br>
 
 You can find more infomration on the specifics of these options in the help file by selecting the ? icon in the tool configuration. <br><br>
@@ -35,7 +35,7 @@ Browse to:<br>
 ProgramData\Alteryx\Service\Persistence\AS_Schedules<br><br>
 
 The fiel you are looking for is called "_TheData.sqlite".<br>
-![inputdata](/Community%20Articles/Screenshots/Querey%20Scheduler%20database/SQLite_Method.jpg)
+![inputdata](/Community%20Articles/Screenshots/Query%20Scheduler%20database/SQLite_Method.jpg)
 <br><br>
 
 **Parse the data:**<br>

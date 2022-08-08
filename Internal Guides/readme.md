@@ -1,1 +1,3 @@
-This folder contains guides, or excerpts from guides, written for internal use. Most of these guides were written during my time in Customer Support both as a Support Engineer and as Program Manager. 
+This folder contains guides, written for internal use, and recreated in markdown.
+
+Most of these guides were written during my time in Customer Support both as a Support Engineer and as Program Manager. I've updated some of the wording to remove specifics, but the majority of the content remains the same. The FAQ article and the document for transferring cases are part of a 30+ page case handling guide I wrote for the support team as Program Manager. 

@@ -11,7 +11,7 @@ This is a common error that you might see in the event of an unclean server shut
 
 The error will display when trying to start the Service from the command line. Any time the service does not start peroperly, a log file is written called LastStartUpError.txt. The location of this file can be found in System Settings on the Controller - General page in the Logging section. This file will containe the error text as shown below:
 
-![Screenshot](LockFile.png)
+![Screenshot](/Internal%20Guides/Screenshots/LockFile.png)
 
 **Initial Troubleshooting**
 Follow the steps below to determine if the lock file is the cause:

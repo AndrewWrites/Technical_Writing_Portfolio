@@ -1,1 +1,1 @@
-This folder contains guides written for internal use.
+This folder contains guides, or excerpts from guides, written for internal use. Most of these guides were written during my time in Customer Support both as a Support Engineer and as Program Manager. 

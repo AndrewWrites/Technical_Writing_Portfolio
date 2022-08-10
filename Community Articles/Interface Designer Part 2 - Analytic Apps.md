@@ -19,4 +19,4 @@ The first difference is the option to have the app run a second app when it comp
 
 You'll also see an option to have the app return results to the user. This is helpful when running apps on the Gallery so the user can see their results. When you select the box for "On Success - Show Results to User", you can select the output tools (Output Data and Render tools for Gallery runs) to return the results for saving. <br><br>
 
-You can create custom output messages and upload a graphic to be used in the interface itself. Images are for desktop only, and will not show up when the app is run in the Gallery.
+You can create custom output messages and upload an image to display in the interface itself. Images are for desktop only, and will not show up when the app runs in the Gallery.

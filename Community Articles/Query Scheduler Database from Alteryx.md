@@ -12,7 +12,7 @@ First, you'll need some information from System Settings (Controller - Persisten
 ![SystemSettings](/Community%20Articles/Screenshots/Query%20Scheduler%20database/SystemSettings.jpg)
 <br><br>
 
-You'll need the Host information, Username, and Password. You'll see 2 options for password; Admin and regular. For this, you want to use the regular password which can be copied and pasted into the connector.<br><br>
+You'll need the Host information, Username, and Password. You'll see 2 options for password; Admin and regular. For this, you want to copy and paste the regular password into the connector.<br><br>
 
 Once you have this information, configure the MongoDB Input tool (Connectors toolset):<br>
 ![MongoInput](/Community%20Articles/Screenshots/Query%20Scheduler%20database/MongoDBInput.jpg)
@@ -34,13 +34,13 @@ This option is pretty straightforward. You'll use your standard Input Data tool.
 Browse to:<br>
 ProgramData\Alteryx\Service\Persistence\AS_Schedules<br><br>
 
-The file you are looking for is called "_TheData.sqlite".<br>
+Look for the file called "_TheData.sqlite".<br>
 ![inputdata](/Community%20Articles/Screenshots/Query%20Scheduler%20database/SQLite_Method.jpg)
 <br><br>
 
 **Parse the data:**<br>
 
-With both methods, you'll get a variety of information back including computer name,  username, run dates, etc. There will also be a field called "ServiceData" which is a blob field with a binary object. This field contains additional information about the record you are viewing and can easily be parsed using the ServiceDataParser macro attached below.<br><br>
+With both methods, you'll get a variety of information back including computer name,  username, run dates, etc. There will also be a field called "ServiceData" which is a blob field with a binary object. This field contains additional information about the record you are viewing and is easily parsed using the ServiceDataParser macro attached below.<br><br>
 
 The ServiceDataParser.yxmc was created by Kory Cunningham; and is necessary to make use of the additional field. The original macro is included in the Gallery Usage Report App available on the [downloads page](http://downloads.alteryx.com). <br>
 Note that in some cases you may encounter an error when trying to use the macro that states "This tool is not licensed". This happens because the macro uses a generic tool that some older licenses don't enable. If you come across this error, reach out to our Fulfillment team to obtain an appropriate license.<br><br>
@@ -62,4 +62,4 @@ If you want to take this process a step further, take a look at this [article](h
 All screenshots and directions are taken from Alteryx version 10.1.6.<br><br>
 
 **Update for 11.0 release**<br>
-In 11.0, the option to schedule workflows from the Gallery was added. I've updated the sample workflow to show how to bring those in and identify them separately. There's a bit of extra parsing necessary. Take a look at the "PullFromMongo_Updated_v11.yxzp" file attached.
+Version 11.0 added the option to schedule workflows from the Gallery. I've updated the sample workflow to show how to bring those in and identify them separately. There's a bit of extra parsing necessary. Take a look at the "PullFromMongo_Updated_v11.yxzp" file attached.

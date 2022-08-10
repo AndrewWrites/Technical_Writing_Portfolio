@@ -15,6 +15,6 @@ If this describes your experiences with dirty data, you're in luck. Take a look 
 
 Some of the clean-up options depend on the field type. For instance, when replacing nulls if it's a string field it'll replace it with a blank value whereas if it's numeric it'll return a 0 value. Either way, this should make your data clean-up easier. <br><br>
 
-Better still, this tool is a macro! Macros can be opened to see what's inside (right-click on the tool icon, choose "open macro: Cleanse.yxmc") to see exactly how it's doing its magic. Is there something you have to do with your datasets regularly that this tool doesn't do? Add it! You can add custom functions to this macro so you can keep your one tool clean-up intact. If you do add your own features, be sure to save the macro with a different name so you don't overwrite your existing tool. <br><br>
+Better still, this tool is a macro! You can open macros to see what's inside (right-click on the tool icon, choose "open macro: Cleanse.yxmc") to see exactly how it's doing its magic. Is there something you have to do with your datasets regularly that this tool doesn't do? Add it! You can add custom functions to this macro so you can keep your one tool clean-up intact. If you do add your own features, be sure to save the macro with a different name so you don't overwrite your existing tool. <br><br>
 
 Take a look at the attached sample workflow (created in 10.5) demonstrating the "old way" and the new way of cleansing data!

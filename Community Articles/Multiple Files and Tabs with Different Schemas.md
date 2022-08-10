@@ -11,7 +11,7 @@ The way to accomplish the task if the tabs have (or may have) different schemas 
 In the main workflow pictured above, the Directory Input tool pulls in the file paths of all of the XLSX files in the directory you're pointing to. Note that you may need to redirect this tool in the sample to a directory on your machine.
 ![macro1](/Community%20Articles/Screenshots/Macro1.png)
 
-Most of the magic happens in the macro pictured above. This macro takes the FullPath field and updates the main Input Data tool to read the first file in the list from the Directory Input. It is configured to read the list of sheet names within that first file, but also to output the full path from the Input Data tool. A new field is formatted in the Formula tool for an acceptable full file path for an Excel file, including the desired sheet name. This final file path is passed into the 2nd macro as the control parameter.
+Most of the magic happens in the macro pictured above. This macro takes the FullPath field and updates the main Input Data tool to read the first file in the list from the Directory Input. It is configured to read the list of sheet names within that first file, but also to output the full path from the Input Data tool. The Formula tool formats a new field for an acceptable full file path for an Excel file, including the desired sheet name. This final file path is passed into the 2nd macro as the control parameter.
 
 ![macro2](/Community%20Articles/Screenshots/Macro2.png)
 

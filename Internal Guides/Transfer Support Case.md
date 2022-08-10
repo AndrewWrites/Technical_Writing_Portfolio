@@ -4,7 +4,7 @@
 This document covers the correct procedure for transferring a support case from one  Customer Support Engineer (CSE) to another.
 
 ## **Overview**
-In most cases, the CSE who is assigned to the case is responsible for working it to completion. However, there will be times when a case needs to be transferred to another CSE, potentially in a different global region. The handoff between CSEs is critical to ensure minimal impact on the customer.
+In most cases, the CSE assigned to the case is responsible for working it to completion. However, there will be times when a case needs to be transferred to another CSE, potentially in a different global region. The handoff between CSEs is critical to ensure minimal impact on the customer.
 
 ## **Transferring Within the Same Region**
 There are a few situations when transferring a case to another CSE in the same global region is necessary.
@@ -43,4 +43,4 @@ Use the template below to ensure all required details are in the case notes for 
 - NEXT CUSTOMER CONTACT: Is the customer waiting for us or are we waiting for them? Make note of the customer's time zone.
 
 ## **What If I am Unable to Find Someone to Take Over?**
-If you are unable to find someone to take over the case for you, talk to your supervisor. They can help you find someone and may take over the case themselves as a placeholder if needed. Do **not** transfer the case to your supervisor without talking to them first.
+Talk to your supervisor. They can help you find someone and may take over the case themselves as a placeholder if needed. Do **not** transfer the case to your supervisor without talking to them first.

@@ -33,7 +33,7 @@ Use the arrows on the right to move the questions up or down, or between the tab
 The Test view allows you to enter sample values to test the configuration of your macro. You can enter responses to your questions and then enter the Debug mode to ensure your actions are handling the responses correctly.<br>
 ![open debug](/Community%20Articles/Screenshots/Interface%20Designer%20-%20Macros/OpenDebug.png)
 <br>
-When you select Open Debug you'll notice that a new workflow opens with a text comment box at the top. If you scroll down you will see your macro tools but will notice the Interface tools are not there. Select any tool that an Action is connected to and ensure the value entered in the Test view window has come through properly. If there are any errors, you will see the standard error icon.<br><br>
+When you select Open Debug you'll notice that a new workflow opens with a text comment box at the top. If you scroll down you will see your macro tools but will notice the Interface tools are not there. Select any tool that is connected to an Action tool and ensure the value entered in the Test view window has come through properly. If there are any errors, you will see the standard error icon.<br><br>
 
 **Properties:**<br>
 The first option in the Properties view for macros is to change the icon. Each tool in Alteryx has its own icon, and the base color and shape correspond to the category the tool fits in. All of these base icons are available when selecting the Standard Icon option. Use the dropdown to expand the window and scroll through available standard options. <br>
@@ -41,13 +41,13 @@ The first option in the Properties view for macros is to change the icon. Each t
 <br>
 You can also set up a custom icon by selecting that radio button. Using the Custom Icon allows you to either create an image outside of Alteryx; or perhaps us a company logo, to represent your macro. <br><br>
 
-Another common setting used in macros is how the output records will be formatted. The default is expecting that every iteration of output will have the same schema, and Alteryx will throw an error if they are different.<br><br>
+Another common setting used in macros is how to format the output records. The default is expecting that every iteration of output will have the same schema, and Alteryx will throw an error if they are different.<br><br>
 
 If your schema may change based on the data being fed into the macro, select the check box indicating that, and then choose a method to align the fields:<br>
 ![output](/Community%20Articles/Screenshots/Interface%20Designer%20-%20Macros/OutputOptions.png)
 <br>
 Similar to the Union tool, you can have your macro automatically configure the fields by name or position allowing for greater flexibility with your data. These options can be particularly helpful when using the Dynamic Input tool within your macro to open multiple files. These settings should allow the macro to continue opening files if the schema changes or if field names are slightly different. <br><br>
 
-The final option in the Properties view is not used nearly as often but allows the user to create a custom Help file or link to be included with the macro. <br><br>
+The final option in the Properties view allows you to create a custom Help file or link for the macro. <br><br>
 
 Note: Screenshots taken from version 10.5.

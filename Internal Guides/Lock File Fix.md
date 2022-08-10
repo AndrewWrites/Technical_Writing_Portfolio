@@ -9,7 +9,7 @@ ERROR: Connection failed, please ensure server address and credentials are corre
 
 This is a common error that you might see in the event of an unclean server shutdown. Most of the time this error occurs when the database does not shut down properly and the lock file does not get released. This prevents the database from starting the next time the Service is initiated and returns the error.
 
-The error will display when trying to start the Service from the command line. Any time the service does not start properly, a log file is written called LastStartUpError.txt. The location of this file can be found in System Settings on the Controller - General page in the Logging section. This file will contain the error text as shown below:
+The error will display when trying to start the Service from the command line. A log file (LastStartUpError.txt) is written any time the service does not start properly. The location of this file can be found in System Settings on the Controller - General page in the Logging section. This file will contain the error text as shown below:
 
 ![Screenshot](/Internal%20Guides/Screenshots/LockFile.png)
 
@@ -24,7 +24,7 @@ If the lock file has a file size of 0kb, skip to the Additional Troubleshooting 
 If the lock file has a file size greater than 0kb, continue to the next section.
 
 **Resolution**
-This section details the steps necessary to resolve the error and test to make sure everything is working properly. It is recommended that you backup the server instance before proceeding to protect against corruption.
+This section details the steps necessary to resolve the error and test to make sure everything is working properly. We recommend that you backup the server instance before proceeding to protect against corruption.
 
 Follow these steps to reset the lock file:
 

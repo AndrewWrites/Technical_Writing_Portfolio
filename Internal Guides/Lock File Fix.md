@@ -9,7 +9,7 @@ ERROR: Connection failed, please ensure server address and credentials are corre
 
 This is a common error that you might see in the event of an unclean server shutdown. Most of the time this error occurs when the database does not shut down properly and the lock file does not get released. This prevents the database from starting the next time the Service is initiated and returns the error.
 
-The error will display when trying to start the Service from the command line. Any time the service does not start peroperly, a log file is written called LastStartUpError.txt. The location of this file can be found in System Settings on the Controller - General page in the Logging section. This file will containe the error text as shown below:
+The error will display when trying to start the Service from the command line. Any time the service does not start properly, a log file is written called LastStartUpError.txt. The location of this file can be found in System Settings on the Controller - General page in the Logging section. This file will contain the error text as shown below:
 
 ![Screenshot](/Internal%20Guides/Screenshots/LockFile.png)
 
@@ -17,7 +17,7 @@ The error will display when trying to start the Service from the command line. A
 Follow the steps below to determine if the lock file is the cause:
 
 1. Find where the database is installed from the Persistence screen in System Settings.
-2. Open a Windows Folder Browse and nagvigate to the location where the database is installed.
+2. Open a Windows Folder Browse and navigate to the location where the database is installed.
 3. Check to see if the database.lock file has a file size of anything other than 0kb.
 
 If the lock file has a file size of 0kb, skip to the Additional Troubleshooting section.
@@ -35,7 +35,7 @@ Follow these steps to reset the lock file:
 5. Open a Windows Command Prompt and navigate to the \Software\bin directory:
 
     `cd \Program Files\Software\bin`
-6. Start the database service to confirm mit loads successfully
+6. Start the database service to confirm it loads successfully
 
     `database --dbpath "directory path from System Settings" --auth --port 27018`
 7. Wait for the line that says "Waiting for connections on port 27018".
@@ -52,4 +52,4 @@ If the lock file was not the problem, follow the steps below to determine the ca
     `cd \Program Files\Software\bin`
 2. Run the command `Service test` to determine the error.
 
-If you are still unable to determine the cause of the error, colelct the service log files for further investigation. The location of the logs can be found in System Settings on the Controller - General page.
+If you are still unable to determine the cause of the error, collect the service log files for further investigation. The location of the logs can be found in System Settings on the Controller - General page.

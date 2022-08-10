@@ -1,3 +1,3 @@
 This folder contains the articles I've written for user communities with the intent of reducing support tickets by providing solutions to common issues and tasks.<br>
 
-These articles have all been recreated in markdown. The original articles, as published on the community site, are linked at the top of each document. I've used this exercise as a way to practice markdown syntax as well as make edits to the original articles. Most of the edits are formatting related for readability, but I've also made updates to word choices for accessibility and brevity. 
+These articles have all been recreated in markdown. The original articles, as published on the community site, are linked at the top of each document. I've used this exercise as a way to practice markdown syntax as well as make edits to the original articles. Most of the edits are formatting-related for readability, but I've also made updates to word choices for accessibility and brevity. 

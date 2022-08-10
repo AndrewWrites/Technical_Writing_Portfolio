@@ -2,7 +2,7 @@ This is a recreation of the published article. The original can be found [here](
 
 ## Read in Multiple Excel Files, with Multiple Tabs that have Different Schemas <br><br>
 
-One of the best things about Alteryx is the ability to read in multiple files very easily and automatically combine them into a single dataset. This becomes a bit trickier when dealing with files that have different schemas or Excel files with multiple tabs. Adding both multiple Excel files, and having the schema change within each tab takes it to another level. <br><br>
+One of the best things about Alteryx is the ability to bring in multiple files very easily and automatically combine them into a single dataset. This becomes a bit trickier when dealing with files that have different schemas or Excel files with multiple tabs. Adding both multiple Excel files, and having the schema change within each tab takes it to another level. <br><br>
 If your tabs have the same schema, the article you want to read is [here](https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/How-To-Import-Multiple-Excel-Sheets-or-a-Specific-Excel-Range/ta-p/398220). <br><br>
 The way to accomplish the task if the tabs have (or may have) different schemas (field names change depending on the sheet) is to use nested batch macros. I've attached a sample workflow built in 11.0 that demonstrates the process.
 
@@ -15,7 +15,7 @@ Most of the magic happens in the macro pictured above. This macro takes the Full
 
 ![macro2](/Community%20Articles/Screenshots/Macro2.png)
 
-The second macro is very simple. It takes the file path received from the first macro, updates th Input Data tool, reads in that file and then passes it back to the first macro. It repeats this process once for each sheet in each of the files being passed from the Directory Input tool.<br>
+The second macro is very simple. It takes the file path received from the first macro, updates the Input Data tool, reads in that file, and then passes it back to the first macro. It repeats this process once for each sheet in each of the files being passed from the Directory Input tool.<br>
 
 Each batch macro holds the data until each batch is completed and combines it all into one large dataset. <br>
 

@@ -1,3 +1,5 @@
+This is a recreation of the original article. The article as published can be found [here](https://help.alteryx.com/product-activation-and-licensing/uninstall-product).
+
 ## **Uninstall a Product**
 
 The Alteryx installer removes an existing product when you perform a full install of the same product. For example, when you perform a full install of admin Designer, the installer removes a previously installed version of admin Designer. The same is true for other Alteryx products like Alteryx Intelligence Suite and the Alteryx Predictive Tools.
